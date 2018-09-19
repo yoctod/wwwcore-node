@@ -8,17 +8,18 @@
   },
   "services": [
     "wwwcoind",
-    "insight-api",
-    "insight-ui",
+    "wwwcore-insight-api",
+    "wwwcore-insight-ui",
     "web"
   ],
   "servicesConfig": {
     "web": {
 	  "jsonRequestLimit": "2000kb"
 	},
-    "insight-api": {
-	  "disableRateLimiter": true
-	},
+    "wwwcore-insight-api": {
+         "disableRateLimiter": true
+     },
+
     "wwwcoind": {
       "connect": [
         {
