@@ -1,0 +1,35 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "https": false,
+  "httpsOptions": {
+    "key": "/opt/wwwwcoin/cert/wwwcoin.info.key",
+    "cert": "/opt/wwwwcoin/cert/wwwcoin.info.pem"
+  },
+  "services": [
+    "wwwcoind",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "web": {
+	  "jsonRequestLimit": "2000kb"
+	},
+    "insight-api": {
+	  "disableRateLimiter": true
+	},
+    "wwwcoind": {
+      "connect": [
+        {
+          "rpchost": "127.0.0.1",
+          "rpcport": 5665,
+          "rpcuser": "test",
+          "rpcpassword": "test",
+          "zmqpubrawtx": "tcp://127.0.0.1:28332"
+
+        }
+      ]
+    }
+  }
+}
