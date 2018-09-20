@@ -27,7 +27,7 @@ Services correspond with a Node.js module as described in 'package.json', for ex
 }
 ```
 
-_Note:_ If you already have a wwwcore-node database, and you want to query data from previous blocks in the blockchain, you will need to reindex. Reindexing right now means deleting your litecore-node database and resyncing.
+_Note:_ If you already have a wwwcore-node database, and you want to query data from previous blocks in the blockchain, you will need to reindex. Reindexing right now means deleting your wwwcore-node database and resyncing.
 
 ## Using Services Programmatically
 If, instead, you would like to run a custom node, you can include services by including them in your configuration object when initializing a new node.

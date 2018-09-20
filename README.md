@@ -1,7 +1,7 @@
 Wwwcore Node
 ============
 
-A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/litecoin-project/litecore-litecoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Wwwcoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Wwwcoin Core with additional indexing](https://github.com/yoctod/wwwcore-wwwcoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -10,7 +10,7 @@ npm install -g wwwcore-node
 wwwcore-node start
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Litecoin Core with additional indexing](https://github.com/litecoin-project/wwwcore-litecoin).
+Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Wwwcoin Core with additional indexing](https://github.com/yoctod/wwwcore-wwwcoin).
 
 ## Prerequisites
 
@@ -54,7 +54,7 @@ There are several add-on services available to extend the functionality of Bitco
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/litecoin-project/wwwcore/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/yoctod/wwwcore/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
