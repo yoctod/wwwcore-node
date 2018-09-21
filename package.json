@@ -53,6 +53,7 @@
     "wwwcoind-rpc": "git://github.com/yoctod/wwwcoind-rpc.git",
     "wwwcore-insight-api": "git://github.com/yoctod/wwwcore-insight-api.git",
     "wwwcore-insight-ui": "git://github.com/yoctod/wwwcore-insight-ui.git",
+    "wwwcore-wallet-service": "git://github.com/yoctod/wwwcore-wallet-service.git",
     "zeromq": "^4.2.0"
   },
   "optionalDependencies": {

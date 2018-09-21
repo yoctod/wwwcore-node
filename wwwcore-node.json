@@ -6,12 +6,6 @@
     "key": "/opt/wwwwcoin/cert/wwwcoin.info.key",
     "cert": "/opt/wwwwcoin/cert/wwwcoin.info.pem"
   },
-  "services": [
-    "wwwcoind",
-    "wwwcore-insight-api",
-    "wwwcore-insight-ui",
-    "web"
-  ],
   "servicesConfig": {
     "web": {
 	  "jsonRequestLimit": "2000kb"
@@ -19,7 +13,9 @@
     "wwwcore-insight-api": {
          "disableRateLimiter": true
      },
-
+    "wwwcore-wallet-service": {
+      "bwsPort": 3232
+    },
     "wwwcoind": {
       "connect": [
         {
@@ -32,5 +28,13 @@
         }
       ]
     }
-  }
+  },
+  "services": [
+    "wwwcoind",
+    "wwwcore-insight-api",
+    "wwwcore-insight-ui",
+    "wwwcore-wallet-service",
+    "web"
+  ]
+
 }
